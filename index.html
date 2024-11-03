@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CV</title>
+        <link href="./scracthOff.css" rel="stylesheet">
+        <script src="scracthOff.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">    
+            <h1>Hello<br/>
+                Bienvenue sur la page de mon CV créatif et ludique. 
+                <br/>
+                Cliquez, maintenez appuyer et grattez la partie grise ! 
+                <br/>
+                Envie de rejouer ? Cliquez sur le bouton reset en bas de la page à gauche. 
+                <br/>
+                À très bientôt,
+                Elodie Bourdie</h1>
+            
+            <div><canvas id="maincanvas" width="750px"></canvas></div>
+            
+            <div><input id="resetbutton" type="button" value="Reset"></input></div>
+        </div>
+    </body>
+</html>
