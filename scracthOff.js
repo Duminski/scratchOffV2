@@ -2,7 +2,7 @@ $(document).ready((function() {
 
 var image = { // back and front images
   'back': { 'url':'./commManager.jpg', 'img':null },
-	'front': { 'url':'./back_v2_resized.jpg', 'img':null }
+	'front': { 'url':'./front.jpg', 'img':null }
 };
 
 var canvas = {'temp':null, 'draw':null}; // temp and draw canvases
